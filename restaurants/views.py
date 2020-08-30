@@ -33,7 +33,6 @@ def restaurant_detail(request):
             "address": '2699 Shubah Ibn Al Hajjaj, Al Olaya, Riyadh 12241 6726',
             "phone number" : '+966114641133',
             "opening hours" : '1:30-11PM'
-
         }
     }
     return render(request, 'detail.html', context)
